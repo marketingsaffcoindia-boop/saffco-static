@@ -8,35 +8,18 @@
     html, body {
       margin: 0;
       padding: 0;
-      height: 100%;
-    }
-
-    body {
       background: #000;
     }
-
-    .landing-container {
-      width: 100%;
-      max-width: 1366px; /* original image width */
-      margin: 0 auto;    /* center horizontally */
-    }
-
     img {
-      width: 100%;
-      height: auto;
       display: block;
+      width: 100%;
+      max-width: 1366px;
+      margin: 0 auto;
+      height: auto;
     }
   </style>
 </head>
 <body>
-  <div class="landing-container">
-    <img src="./landing.png" usemap="#saffcoMap" alt="Saffco Landing" />
-    <map name="saffcoMap">
-      <!-- Example clickable zones -->
-      <area shape="rect" coords="200,300,400,350" href="https://saffco.in/services" alt="Services" />
-      <area shape="rect" coords="500,800,700,850" href="https://saffco.in/contact" alt="Contact" />
-      <area shape="rect" coords="900,1200,1100,1250" href="https://saffco.in/about" alt="About Us" />
-    </map>
-  </div>
+  <img src="landing.png" alt="Saffco Landing" />
 </body>
 </html>
