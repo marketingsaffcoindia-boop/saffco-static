@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saffco </title>
+    <style>
+      body {
+        margin: 0;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        max-width: 1366px;
+      }
+
+      /* Optional hover outline (for testing clickable areas) */
+      area:hover {
+        outline: 2px solid red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Replace "landing.jpg" with your actual image filename -->
+    <img src="Saffco 2025.png" usemap="#saffcoMap" alt="Saffco Visual Landing" />
+
+    <!-- Define clickable zones on the image -->
+    <map name="saffcoMap">
+      <!-- Example #1: top logo area -->
+      <area
+        shape="rect"
+        coords="100,100,400,200"
+        href="https://saffco.in"
+        alt="Saffco Official"
+        target="_blank"
+      />
+
+      <!-- Example #2: portfolio section -->
+      <area
+        shape="rect"
+        coords="200,1500,700,1600"
+        href="https://www.instagram.com/saffco"
+        alt="Instagram Portfolio"
+        target="_blank"
+      />
+
+      <!-- Example #3: contact button -->
+      <area
+        shape="rect"
+        coords="500,5900,900,6000"
+        href="mailto:marketing.saffco.india@gmail.com"
+        alt="Email Us"
+      />
+    </map>
+  </body>
+</html>
