@@ -3,59 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Saffco </title>
+    <title>Saffco Landing</title>
     <style>
       body {
         margin: 0;
         background-color: #000;
         display: flex;
         justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: auto;
       }
-
       img {
         width: 100%;
-        height: auto;
         max-width: 1366px;
-      }
-
-      /* Optional hover outline (for testing clickable areas) */
-      area:hover {
-        outline: 2px solid red;
+        height: auto;
+        display: block;
       }
     </style>
   </head>
-
   <body>
-    <!-- Replace "landing.jpg" with your actual image filename -->
-    <img src="Saffco 2025.png" usemap="#saffcoMap" alt="Saffco Visual Landing" />
+    <img src="landing.png" usemap="#saffcoMap" alt="Saffco Landing" />
 
-    <!-- Define clickable zones on the image -->
     <map name="saffcoMap">
-      <!-- Example #1: top logo area -->
-      <area
-        shape="rect"
-        coords="100,100,400,200"
-        href="https://saffco.in"
-        alt="Saffco Official"
-        target="_blank"
-      />
-
-      <!-- Example #2: portfolio section -->
-      <area
-        shape="rect"
-        coords="200,1500,700,1600"
-        href="https://www.instagram.com/saffco"
-        alt="Instagram Portfolio"
-        target="_blank"
-      />
-
-      <!-- Example #3: contact button -->
-      <area
-        shape="rect"
-        coords="500,5900,900,6000"
-        href="mailto:marketing.saffco.india@gmail.com"
-        alt="Email Us"
-      />
+      <!-- Example clickable zones -->
+      <area shape="rect" coords="200,300,400,350" href="https://saffco.in/services" alt="Services" />
+      <area shape="rect" coords="500,800,700,850" href="https://saffco.in/contact" alt="Contact" />
+      <area shape="rect" coords="900,1200,1100,1250" href="https://saffco.in/about" alt="About Us" />
     </map>
   </body>
 </html>
